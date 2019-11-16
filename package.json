@@ -2,8 +2,12 @@
   "name": "pottux",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
+    "axios": "^0.19.0",
     "leaflet": "^1.5.1",
+    "leaflet.heat": "^0.2.0",
+    "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"

@@ -1,9 +1,12 @@
 import React from 'react'
+import Map from './components/Map/Map'
+import 'leaflet/dist/leaflet.css'
+import './index.scss'
 
 function App() {
   return (
     <div className="App">
-      <h1>Glom</h1>
+      <Map/>
     </div>
   )
 }
